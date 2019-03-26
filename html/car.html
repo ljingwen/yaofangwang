@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/car.css" />
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css" />
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font.css" />
+        <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="../js/car.js"></script>
+        <script type="text/javascript" src="../js/common.js"></script>
+    </head>
+    <body>
+        <!-- 头部隐藏的部分 -->
+        <div class="trusted-head-box" >
+            <div class="trusted-head" style="display: none;">
+                <div class="ts-bg1">
+                    <div class="know-detail clearfix">
+                        <div class="ts-left fl"><img src="../img/top_true.png" height="23" width="18" alt="" />该网站已经认证联盟认证为可信网站，请放心访问 </div>
+                        <div class="ts-right fr">                          
+                            <img src="../img/top_card.png" height="38" width="139" alt="" />
+                        </div>
+                        <a href="#" class="fr">了解详情></a>
+                    </div>                     
+                </div>
+                <div class="ts-bg2">
+                    <div class="trusted-info clearfix">
+                        <div class="blank fl"></div>
+                        <div class="mar fl"><i></i>网站安全检测</div>
+                        <div class="mar fl"><i></i>身份证明信息</div>
+                        <div class="mar fl"><i></i>ICP备案审查</div>
+                        <div class="mar fl"><i></i>工商登记信息</div>
+                        <div class="mar fl"><i></i>业务资质许可</div>
+                        <div class="mar fl"><i></i>网站信用信息</div> 
+                    </div>                    
+                </div>
+            </div>
+            <div class="top_r_hide">
+                <img id="trusted_hide_image" src="../img/top-hide.png" height="79" width="38" alt="" style="display: none;"/>
+                <img id="trusted_show_image" src="../img/top-block.png" height="40" width="38" alt="" />
+            </div>
+        </div>
+        <!-- three  -->
+        <div class="head">
+            <!-- 标题栏 -->
+            <div class="siteNav">
+                <div class="site_nav_bd con">
+                    <div class="site_nav_bd_l">
+                        
+                    </div>
+                    <div class="site_nav_bd_r">
+                        <ul class="topmenu">
+                            <li class="header_existe"><a href="">请登录</a></li>
+                            <li class="header_existe"><a href="" style="color:#e50007;">注册</a></li>
+                            <li id="my_username_header" style="display: none;color:#5b5b5b;font-size:12px;line-height:30px;"><span>，欢迎来到药房网！</span></li>
+                            <li><a href="" style="display: none;">退出</a></li>
+                            <li class="my_username_header" id="my_yfw">
+                                <a href="">我的药房网<i class="header_down"></i></a>
+                                <div class="hidebox myyaofangwang" style="display: none;">
+                                    <a href="#" target="_blank">我的清单</a>
+                                    <a href="#" target="_blank">我的优惠券</a>
+                                    <a href="#" target="_blank">我的留言</a>
+                                    <a href="#" target="_blank">我的帖子</a>
+                                </div>
+                            </li>
+                            <li class="header_existe_out"> <a href=""><i class="top_list"></i> 需求清单</a></li>
+                            <li><a href=""><i class="top_phone"></i>手机版<i class="header_down"></i></a></li>
+                            <li><a href="">网站导航<i class="header_down"></i></a></li>
+                            <li><a href="">增值电信业务经营许可证：京B2-20180434</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 标题栏 end -->
+            <!-- header -->
+            <div class="siteHeader">
+                <div class="site_head con clearfix">
+                <div class="logo">
+                    
+                </div>
+                <div class="mod_search">
+                    <!-- shang -->
+                    <div class="searchForm">
+                        <form action="">
+                            <div class="search-wrapper"><input type="text" id="search_text" class="wrap-search" value="冬瓜荷叶茶" placeholder="冬瓜荷叶茶"/></div>
+                            <div class="search-button"><input type="submit" value="搜索" class="search-btn" /></div>
+                        </form>
+                    </div>
+                    <!-- xia -->
+                    <div class="search-more">
+                        <a href="">桔贝合剂</a>
+                        <a href="">感冒灵颗粒</a>
+                        <a href="">肤痔清软膏</a>
+                        <a href="">达芙文</a>
+                        <a href="">爱乐维</a>
+                        <a href="">五子衍宗丸</a>
+                    </div>
+                </div>
+                <div class="phone">
+                    <ul>
+                        <li class="last">
+                            <i class="fa  fa-phone-square"></i>
+                            <span>
+                            客户投诉电话
+                                <b>400-650-9988</b>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="">
+                               <i class="fa fa-address-book"></i>
+                            <span>欢迎使用<br /><b style="color:#4095d4;">在线客服</b>
+                            </span> 
+                            </a>
+                            
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <!-- header end -->
+             <!-- 头部菜单-->
+            <div class="header-wrapper">
+                <div class="headerNavMain clearfix con ">
+                    <div class="nav-all">
+                        <a href=""><span>全部商品分类</span></a>
+                        <div class="yHeader" style="display:none;">
+                            <div class="yNavIndex">
+                                <div class="pullDown" >
+                                    <ul class="pullDownList">
+                                        <li>
+                                            <i class="fa fa-ambulance fa-fw"></i>
+                                            <a href="">重大疾病</a>、<a href="">肿瘤</a>、
+                                            <a href="">肺癌</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-address-book fa-fw"></i>
+                                            <a href="">新药特药</a>、<a href="">血液</a>、
+                                            <a href="">罕见病</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-wheelchair" style="margin-left: 3px;"></i>
+                                            <a href="">慢性疾病</a>、<a href="">三高</a>、
+                                            <a href="">男性健康</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-building fa-fw"></i>
+                                            <a href="">家庭常备</a>、<a href="">妇科</a>、
+                                            <a href="">儿科</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-h-square fa-fw"></i>
+                                            <a href="">中医养生</a>、<a href="">草药</a>、
+                                            <a href="">参茸礼品</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-plus-square fa-fw"></i>
+                                            <a href="">医疗器械</a>、<a href="">康复</a>、
+                                            <a href="">血压监测</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-stethoscope fa-fw"></i>
+                                            <a href="">营养保健</a>、<a href="">减肥</a>、
+                                            <a href="">亚健康</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-medkit fa-fw"></i>
+                                            <a href="">健康超市</a>、<a href="">母婴</a>、
+                                            <a href="">化妆品</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-heart fa-fw"></i>
+                                            <a href="">健康服务</a>、
+                                            <a href="">挂号</a>、
+                                            <a href="">健康卡</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-life-saver fa-fw"></i>
+                                            <a href="">隐形眼镜</a>、
+                                            <a href="">美瞳</a>、
+                                            <a href="">护理液</a>
+                                        </li>
+                                    </ul>
+                                    <div id="yMenuListCon" class="yMenuListCon" style="display:none;">
+                                        <!-- - 1重大疾病、肿瘤、肺癌  -->
+                                        <div class="yMenuListConin" style="display:none;">
+                                            <div class="left">
+                                                <dl>
+                                                    <dt>
+                                                        <a href="">肿瘤
+                                                         <i class="iconfont icon-youjiantou"></i>    
+                                                         </a>
+                                                    </dt>
+                                                    <dd>
+                                                        <a href="/c/category?cat_id=14941" target="_blank" >其他病症</a>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">肝癌</a>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">骨髓瘤</a>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">胃癌</a>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">肺癌</a>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">肾癌</a>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">前列腺癌</a>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">肿瘤病辅助</a>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">乳腺癌</a>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">卵巢癌</a>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">淋巴肿瘤</a>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">食道癌</a>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">细胞瘤</a>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">肾脏病</a>
+                                                    </dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><a href="#" target="_blank" name="__ad_common_category_45141">调节免疫力<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">免疫调节药物</a>
+                                                    </dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><a href="#" target="_blank" name="__ad_common_category_45141">器官移植<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="#" target="_blank" name="__ad_common_category_45141">抗排异药物</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="right">
+                                                <ul>
+                                                    <li><a href=""><img src="../img/second_nav1.jpg" alt="" /></a></li>
+                                                    <li><a href=""><img src="../img/second_nav2.jpg" alt="" /></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- - 2新药特药、血液、罕见病  -->
+                                        <div class="yMenuListConin" style="display: none;">
+                                            <div class="left">
+                                                <dl>
+                                                    <dt><a href="/c/category?cat_id=22263" target="_blank" name="__ad_common_category_45493">慢性病<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="/c/category?cat_id=7179" target="_blank" name="__ad_common_category_45493">艾滋病</a>
+                                                        <a href="/c/category?cat_id=7181" target="_blank" name="__ad_common_category_45493">皮肤疾病</a>
+                                                        <a href="/c/category?cat_id=7183" target="_blank" name="__ad_common_category_45493">甲亢</a>
+                                                        <a href="/c/category?cat_id=7190" target="_blank" name="__ad_common_category_45493">其他慢性病</a>
+                                                        <a href="/c/category?cat_id=7194" target="_blank" name="__ad_common_category_45493">糖尿病</a>
+                                                        <a href="/c/category?cat_id=7195" target="_blank" name="__ad_common_category_45493">心脑血管</a>
+                                                        <a href="/c/category?cat_id=7199" target="_blank" name="__ad_common_category_45493">风湿骨痛</a>
+                                                        <a href="/c/category?cat_id=45287" target="_blank" name="__ad_common_category_45493">肺纤维化</a>
+                                                        <a href="/pd-szb.html" target="_blank" name="__ad_common_category_45493">肾脏病</a>
+                                                        <!--
+                                                        <a href="/c/category?cat_id=7184" target="_blank" name="__ad_common_category_45493">眼科病</a>
+                                                        <a href="/c/category?cat_id=7189" target="_blank" name="__ad_common_category_45493">肺病</a>
+                                                        -->
+                                                    </dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><a href="/c/category?cat_id=19880" target="_blank" name="__ad_common_category_45493">罕见病<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="/c/category?cat_id=4806" target="_blank" name="__ad_common_category_45493">地中海贫血</a>
+                                                        <a href="/c/category?cat_id=4807" target="_blank" name="__ad_common_category_45493">肺动脉高压</a>
+                                                        <a href="/c/category?cat_id=4811" target="_blank" name="__ad_common_category_45493">肢端肥大症</a>
+                                                        <a href="/c/category?cat_id=4816" target="_blank" name="__ad_common_category_45493">骨溶解骨痛</a>
+                                                        <!--
+                                                        <a href="/c/category?cat_id=4808" target="_blank" name="__ad_common_category_45493">高苯丙氨酸血症</a>
+                                                        <a href="/c/category?cat_id=4812" target="_blank" name="__ad_common_category_45493">铁中毒</a>
+                                                        <a href="/c/category?cat_id=4814" target="_blank" name="__ad_common_category_45493">多发性硬化症</a>
+                                                        -->
+                                                    </dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><a href="/c/category?cat_id=27866" target="_blank" name="__ad_common_category_45493">血液疾病<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="/c/category?cat_id=12800" target="_blank" name="__ad_common_category_45493">其他血液疾病</a>
+                                                        <a href="/c/category?cat_id=12802" target="_blank" name="__ad_common_category_45493">血友病</a>
+                                                        <a href="/c/category?cat_id=45396" target="_blank" name="__ad_common_category_45493">高磷血症</a>
+                                                        <!--
+                                                        <a href="/c/category?cat_id=45302" target="_blank" name="__ad_common_category_45493">粒细胞减少症</a>
+                                                        <a href="/c/category?cat_id=45304" target="_blank" name="__ad_common_category_45493">白</a>
+                                                        <a href="/c/category?cat_id=45323" target="_blank" name="__ad_common_category_45493">骨髓增生异常综合征(MDS)</a>
+                                                        <a href="/c/category?cat_id=45378" target="_blank" name="__ad_common_category_45493">菌血症</a>
+                                                        <a href="/c/category?cat_id=45392" target="_blank" name="__ad_common_category_45493">高钙血症</a>
+                                                        -->
+                                                    </dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><a href="/c/category?cat_id=18943" target="_blank" name="__ad_common_category_45493">肝部疾病<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="/c/category?cat_id=3879" target="_blank" name="__ad_common_category_45493">肝病</a>
+                                                    </dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><a href="/c/category?cat_id=25832" target="_blank" name="__ad_common_category_45493">神经系统<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="/c/category?cat_id=10768" target="_blank" name="__ad_common_category_45493">运动神经元疾病</a>
+                                                    </dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><a href="/c/category?cat_id=24400" target="_blank" name="__ad_common_category_45493">其他病症类<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="/c/category?cat_id=9335" target="_blank" name="__ad_common_category_45493">子宫内膜异位症</a>
+                                                        <!--
+                                                        <a href="/c/category?cat_id=9336" target="_blank" name="__ad_common_category_45493">性早熟</a>
+                                                        -->
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="right">
+                                                <ul>
+                                                                <li><a href="/goods-1039901.html" target="_blank" name="__ad_common_categoryAD_45493"><img class="lazy lazysporty" src="../img/second_nav1.jpg" title="盐酸西那卡塞片（盖平）" alt="盐酸西那卡塞片（盖平）" style="display: inline;"></a></li>
+                                                                <li><a href="/goods-1047384.html" target="_blank" name="__ad_common_categoryAD_45493"><img class="lazy lazysporty" src="../img/second_nav3.jpg" title="利鲁唑片(力如太)" alt="利鲁唑片(力如太)" style="display: inline;"></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- - 3慢性疾病、三高、男性健康  -->
+                                        <div class="yMenuListConin" style="display: none;">
+                                            <div class="left">
+                                                <dl>
+                                                    <dt><a href="/c/category?cat_id=28079" target="_blank" name="__ad_common_category_43230">男科用药<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="/c/category?cat_id=8753" target="_blank" name="__ad_common_category_43230">性功能障碍</a>
+                                                        <a href="/c/category?cat_id=8764" target="_blank" name="__ad_common_category_43230">前列腺疾病</a>
+                                                        <a href="/c/category?cat_id=8796" target="_blank" name="__ad_common_category_43230">补肾壮阳药</a>
+                                                        <a href="/c/category?cat_id=13015" target="_blank" name="__ad_common_category_43230">滋阴补肾药</a>
+                                                        <a href="/c/category?cat_id=45274" target="_blank" name="__ad_common_category_43230">雄激素补充</a>
+                                                    </dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><a href="/c/category?cat_id=45236" target="_blank" name="__ad_common_category_43230">精神科用药<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="/c/category?cat_id=45243" target="_blank" name="__ad_common_category_43230">抑郁症用药</a>
+                                                        <a href="/c/category?cat_id=45239" target="_blank" name="__ad_common_category_43230">精神分裂症用药</a>
+                                                        <a href="/c/category?cat_id=45237" target="_blank" name="__ad_common_category_43230">神经衰弱用药</a>
+                                                        <a href="/c/category?cat_id=45238" target="_blank" name="__ad_common_category_43230">睡眠障碍用药</a>
+                                                        <a href="/c/category?cat_id=45240" target="_blank" name="__ad_common_category_43230">多动症用药</a>
+                                                        <a href="/c/category?cat_id=45241" target="_blank" name="__ad_common_category_43230">焦虑症用药</a>
+                                                    </dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><a href="/c/category?cat_id=27612" target="_blank" name="__ad_common_category_43230">心脑血管用药<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="/c/category?cat_id=12545" target="_blank" name="__ad_common_category_43230">高血压用药</a>
+                                                        <a href="/c/category?cat_id=12544" target="_blank" name="__ad_common_category_43230">高血脂用药</a>
+                                                        <a href="/c/category?cat_id=12548" target="_blank" name="__ad_common_category_43230">心脏及冠脉疾病</a>
+                                                        <a href="/c/category?cat_id=12541" target="_blank" name="__ad_common_category_43230">脑血管疾病</a>
+                                                        <a href="/c/category?cat_id=12546" target="_blank" name="__ad_common_category_43230">中风偏瘫类</a>
+                                                        <a href="/c/category?cat_id=45250" target="_blank" name="__ad_common_category_43230">心脑血管疾病辅助药</a>
+                                                        <a href="/c/category?cat_id=45230" target="_blank" name="__ad_common_category_43230">静脉曲张</a>
+                                                        <a href="/c/category?cat_id=12483" target="_blank" name="__ad_common_category_43230">动脉闭塞</a>
+                                                        <a href="/c/category?cat_id=12523" target="_blank" name="__ad_common_category_43230">血液类疾病</a>
+                                                        <a href="/c/category?cat_id=12547" target="_blank" name="__ad_common_category_43230">眩晕症</a>
+                                                        <a href="/c/category?cat_id=45231" target="_blank" name="__ad_common_category_43230">脉管炎</a>
+                                                        <a href="/c/category?cat_id=45311" target="_blank" name="__ad_common_category_43230">肺心病</a>
+                                                        <a href="/c/category?cat_id=45370" target="_blank" name="__ad_common_category_43230">心力衰竭</a>
+                                                        <a href="/c/category?cat_id=45282" target="_blank" name="__ad_common_category_43230">预防血栓药</a>
+                                                        <a href="/c/category?cat_id=45261" target="_blank" name="__ad_common_category_43230">改善微循环</a>
+                                                        <a href="/c/category?cat_id=45215" target="_blank" name="__ad_common_category_43230">低血压用药</a>
+                                                        <a href="/c/category?cat_id=45375" target="_blank" name="__ad_common_category_43230">造影剂</a>
+                                                    </dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><a href="/c/category?cat_id=26178" target="_blank" name="__ad_common_category_43230">糖尿病类<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="/c/category?cat_id=45242" target="_blank" name="__ad_common_category_43230">抑</a>
+                                                        <a href="/c/category?cat_id=11114" target="_blank" name="__ad_common_category_43230">口服降糖药</a>
+                                                        <a href="/c/category?cat_id=11072" target="_blank" name="__ad_common_category_43230">注射降糖药</a>
+                                                    </dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><a href="/c/category?cat_id=23900" target="_blank" name="__ad_common_category_43230">肝胆胰类<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="/c/category?cat_id=4024" target="_blank" name="__ad_common_category_43230">乙肝用药</a>
+                                                        <a href="/c/category?cat_id=4035" target="_blank" name="__ad_common_category_43230">肝炎用药</a>
+                                                        <a href="/c/category?cat_id=4013" target="_blank" name="__ad_common_category_43230">胆囊炎</a>
+                                                        <a href="/c/category?cat_id=4020" target="_blank" name="__ad_common_category_43230">胆结石</a>
+                                                        <a href="/c/category?cat_id=4014" target="_blank" name="__ad_common_category_43230">舒肝理气类</a>
+                                                        <a href="/c/category?cat_id=3937" target="_blank" name="__ad_common_category_43230">降转氨酶</a>
+                                                        <a href="/c/category?cat_id=3990" target="_blank" name="__ad_common_category_43230">脂肪肝</a>
+                                                        <a href="/c/category?cat_id=45227" target="_blank" name="__ad_common_category_43230">肝病辅助治疗</a>
+                                                        <a href="/c/category?cat_id=45404" target="_blank" name="__ad_common_category_43230">肝炎辅助治疗</a>
+                                                        <a href="/c/category?cat_id=45233" target="_blank" name="__ad_common_category_43230">肝损伤</a>
+                                                        <a href="/c/category?cat_id=45235" target="_blank" name="__ad_common_category_43230">黄疸及黄疸性肝炎</a>
+                                                        <a href="/c/category?cat_id=45315" target="_blank" name="__ad_common_category_43230">肝癌辅助治疗</a>
+                                                        <a href="/c/category?cat_id=4022" target="_blank" name="__ad_common_category_43230">胰腺炎/癌</a>
+                                                        <a href="/c/category?cat_id=45228" target="_blank" name="__ad_common_category_43230">胰腺外分泌不足</a>
+                                                        <a href="/c/category?cat_id=45403" target="_blank" name="__ad_common_category_43230">酒精性肝病</a>
+                                                        <a href="/c/category?cat_id=45234" target="_blank" name="__ad_common_category_43230">肝功能衰退</a>
+                                                    </dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><a href="/c/category?cat_id=22730" target="_blank" name="__ad_common_category_43230">泌尿科用药<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="/c/category?cat_id=7666" target="_blank" name="__ad_common_category_43230">尿路感染用药</a>
+                                                        <a href="/c/category?cat_id=7643" target="_blank" name="__ad_common_category_43230">肾炎用药</a>
+                                                        <a href="/c/category?cat_id=7613" target="_blank" name="__ad_common_category_43230">肾结石用药</a>
+                                                        <a href="/c/category?cat_id=7662" target="_blank" name="__ad_common_category_43230">尿路结石用药</a>
+                                                        <a href="/c/category?cat_id=7614" target="_blank" name="__ad_common_category_43230">膀胱炎用药</a>
+                                                        <a href="/c/category?cat_id=7622" target="_blank" name="__ad_common_category_43230">肾病综合症</a>
+                                                        <a href="/c/category?cat_id=7589" target="_blank" name="__ad_common_category_43230">水肿</a>
+                                                        <a href="/c/category?cat_id=45267" target="_blank" name="__ad_common_category_43230">肾衰竭</a>
+                                                        <a href="/c/category?cat_id=7532" target="_blank" name="__ad_common_category_43230">尿崩症</a>
+                                                        <a href="/c/category?cat_id=7532" target="_blank" name="__ad_common_category_43230">尿毒症</a>
+                                                        <a href="/c/category?cat_id=7578" target="_blank" name="__ad_common_category_43230">辅助利尿</a>
+                                                    </dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt><a href="/c/category?cat_id=26028" target="_blank" name="__ad_common_category_43230">神经系统用药<i class="iconfont icon-youjiantou"></i></a></dt>
+                                                    <dd>
+                                                        <a href="/c/category?cat_id=45214" target="_blank" name="__ad_common_category_43230">头痛用药</a>
+                                                        <a href="/c/category?cat_id=10956" target="_blank" name="__ad_common_category_43230">眩晕</a>
+                                                        <a href="/c/category?cat_id=10960" target="_blank" name="__ad_common_category_43230">记忆减退</a>
+                                                        <a href="/c/category?cat_id=10958" target="_blank" name="__ad_common_category_43230">老年性痴呆</a>
+                                                        <a href="/c/category?cat_id=10963" target="_blank" name="__ad_common_category_43230">面瘫癫痫</a>
+                                                        <a href="/c/category?cat_id=10961" target="_blank" name="__ad_common_category_43230">帕金森</a>
+                                                        <a href="/c/category?cat_id=45406" target="_blank" name="__ad_common_category_43230">帕金森辅助治疗</a>
+                                                        <a href="/c/category?cat_id=10953" target="_blank" name="__ad_common_category_43230">周围神经病变</a>
+                                                        <a href="/c/category?cat_id=45272" target="_blank" name="__ad_common_category_43230">植物神经紊乱</a>
+                                                        <a href="/c/category?cat_id=10916" target="_blank" name="__ad_common_category_43230">晕动症（晕车船）</a>
+                                                        <a href="/c/category?cat_id=10866" target="_blank" name="__ad_common_category_43230">焦虑症（应在精神科用药二级分类）</a>
+                                                        <a href="/c/category?cat_id=10845" target="_blank" name="__ad_common_category_43230">神经性疼痛</a>
+                                                        <a href="/c/category?cat_id=10906" target="_blank" name="__ad_common_category_43230">肌肉无力萎缩</a>
+                                                        <a href="/c/category?cat_id=45273" target="_blank" name="__ad_common_category_43230">神经性呕吐</a>
+                                                        <a href="/c/category?cat_id=10844" target="_blank" name="__ad_common_category_43230">神经炎</a>
+                                                        <a href="/c/category?cat_id=45259" target="_blank" name="__ad_common_category_43230">酒精中毒</a>
+                                                        <a href="/c/category?cat_id=10934" target="_blank" name="__ad_common_category_43230">麻醉用药</a>
+                                                        <a href="/c/category?cat_id=10929" target="_blank" name="__ad_common_category_43230">神经系统其他用药</a>
+                                                    </dd>
+                                                </dl>
+                                                <dl class="cate_see_more">
+                                                    <a href="/c/autokey/categoryAll#a43230" target="_blank" name="__ad_common_categoryAll_43230">
+                                                        <dd>查看更多<i class="iconfont icon-youjiantou"></i></dd>
+                                                    </a>
+                                                </dl>
+                                            </div>
+                                            <div class="right">
+                                                <ul>
+                                                                <li><a href="/goods-1071758.html" target="_blank" name="__ad_common_categoryAD_43230"><img class="lazy lazysporty" src="../img/second_nav4.png"  title="糖尿病用药" alt="达格列净片(安达唐)" style="display: inline;"></a></li>
+                                                                <li><a href="/goods-1025603.html" target="_blank" name="__ad_common_categoryAD_43230"><img class="lazy lazysporty" src="../img/second_nav5.png"  title="治疗勃起功能障碍" alt="他达拉非片(希爱力)" style="display: inline;"></a></li>
+                                                            </ul>
+                                            </div>
+                                        </div>
+                                        <!--  -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header_links">
+                        <ul>
+                            <li><a href="">首页</a></li>
+                            <li><a href="">新药特药进口药</a></li>
+                            <li><a href="">慈善援助</a><img src="../img/hot.gif" alt="" /></li>
+                            <li><a href="">慢性疾病</a></li>
+                            <li><a href="">常见疾病</a></li>
+                            <li><a href="">健康商城</a></li>
+                            <li><a href="">宁草堂</a></li>
+                            <li><a href="">健康社区</a><img src="../img/hot.gif" alt="" /></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+            <!-- 头部菜单 end -->
+        </div>
+        <!-- 公共右侧菜单 start -->
+        <div class="toolbar-wrap">
+            <!-- 右边的需求清单 start -->
+            <div class="toolbar-panels J-panel"></div>
+            <!-- 右边的需求清单 end -->
+            <div class="toolbar"> 
+                <!-- 左边内容 top -->
+                <div class="toolbar-tabs J-tab">
+                    <div class="toolbar-tab tbar-tab-myAccount">
+                        <i class="iconfont icon-gerenzhongxin"></i>
+                        <em class="tab-text">我的账户</em>
+                    </div>
+                    <div class="message_list">
+                        <i class="iconfont icon-biaodan"></i> 
+                        <div class="txt">需求清单</div>
+                        <span class="cart_num">0</span> 
+                    </div>
+                    <div class="toolbar-tab tbar-tab-follow">
+                        <i class="iconfont icon-shoucang"></i>
+                        <em class="tab-text">我的关注</em>
+                    </div>
+                    <div class="toolbar-tab tbar-tab-recentBrowsing">
+                        <i class="iconfont icon-zuijinfangwen"></i>
+                        <em class="tab-text">最近浏览</em>   
+                    </div>
+                    <div class="toolbar-tab">
+                         <i class="iconfont icon-kefu1"></i>
+                         <em class="tab-text footer-tab-text footer-feedback">客服</em>
+                    </div>
+                    <div class="toolbar-tab">
+                        <i class="iconfont icon-shequ-out"></i>
+                        <em class="tab-text">健康社区</em>
+                    </div>
+                    <div class="toolbar-tab">
+                        <i class="iconfont icon-yaowan"></i>
+                        <em class="tab-text">疾病频道</em>
+                    </div>
+                </div>
+                <!-- 左边内容 top end -->  
+                <!-- 左边内容 bottom start-->
+                <div class="toolbar-footer">
+                    <div class="toolbar-tab tbar-tab-top menu_left">
+                        <a href="#">
+                            <i class="iconfont icon-xiangshang"></i>
+                            <em class="footer-tab-text">顶部</em>
+                        </a>
+                    </div>
+                    <div class="toolbar-tab tbar-tab-erweima">
+                        <a href="javascript:;">
+                            <i class="iconfont icon-erweima"></i>
+                        </a>
+                        <div class="qrcode">
+                            <dl>
+                                <dt>访问Wap站</dt>
+                                <dd><img src="../img/wap_twoDim.jpg" alt=""></dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="toolbar-tab menu_left">
+                        <a href="javascript:;" >
+                            <i class="iconfont icon-yijian"></i>
+                            <em class="footer-tab-text">反馈</em>
+                        </a>
+                    </div>
+                </div>
+                <!-- 左边内容 bottom end-->                       
+            </div>
+                                 
+        </div>
+        <!-- 公共右侧菜单 end -->
+        <!-- three end -->
+        <!-- contain start -->
+        <div class="contain con clearfix">
+            <div class="shopCart con">
+                <div class="title1">我的需求清单
+                    <span>全部商品(<i class="allGnum"></i>)</span>
+                    <span>如您所选的商品中包含处方药，您加入需求清单以后，展示药品信息的门店药师会与您联系，并会提醒您在购买时所需要的处方单等相关资料。</span>
+                </div>
+                <div class="title2">
+                    <span class="w1">
+                        <input type="checkbox" class="all" />
+                        全选
+                    </span>
+                    <span class="w2">商品信息</span>
+                    <strong>单价</strong>
+                    <strong>数量</strong>
+                    <strong>小计</strong>
+                    <strong>库存状态</strong>
+                    <strong>操作</strong>
+                </div>
+                <div class="imfor_box">
+                   <!--  <div id="dealer_930" class="title3">
+                        <div class="check_top">
+                            <input class="Each " type="checkbox" name="checkShop">
+                            攸县望岳东路百姓大药房万福店
+                                                                                                                                        
+                        </div>
+                    </div> -->
+                    <!-- apend -->
+                    <!-- <div class="promotion cbuy_hg">
+                        <div class="goods_line">
+                            <div class="top list clearfix" style="margin-left: 0;" >
+                                <div class="check">
+                                    <input type="checkbox" class="Each " name="checkItem" checked="true">
+                                                                                                                                        
+                                </div>
+                                <div class="goods">
+                                    <dl>
+                                        <a href="javascript:;">
+                                            <dt><img src="../img/car1.jpg" alt=""></dt>
+                                            <dd>
+                                                <span>盐酸舍曲林片<i style="color:#CD6E00;">[特例]</i></span>
+                                                <strong>50mg*14片</strong>
+                                            </dd>
+                                        </a>
+                                    </dl>
+                                </div>
+                                <div class="pices">73.50</div>
+                                <div class="num ">
+                                    <span class="reduc ">&nbsp;-&nbsp;</span>
+                                    <input type="text" value="2" class="itxt" minnum="1" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')">
+                                    <span class="add  unClick">&nbsp;+</span>
+                                    <span class="restrictions">最多可购买<i>2</i>件</span>
+                                </div>
+                                <div class="totle">147.00</div>
+                                <div class="available">有货</div>
+                                <a class="del isDel">删除</a>
+                            </div> 
+
+                        </div>
+                    </div> -->
+                    <!-- apend end -->
+                </div>
+                <div class="foot">
+                    <div class="cash confirm_btn1">
+                            <a href="">下一步</a>
+                    </div>
+                    <div class="tol">
+                        <span>
+                            共<b id="number">0</b>件商品
+                        </span>
+                        <span>
+                            优惠<b id="save">￥0.00</b>
+                        </span>
+                        <span>总计（不含配送服务费）:<i>￥</i><b id="susum">0.00</b></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</html>

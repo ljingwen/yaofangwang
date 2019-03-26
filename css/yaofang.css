@@ -1,0 +1,1055 @@
+.trusted-head {
+  left: 0;
+  top: 0;
+  width: 100%; }
+  .trusted-head .ts-bg1 {
+    background: #21ad49; }
+    .trusted-head .ts-bg1 .know-detail {
+      height: 48px;
+      width: 100%;
+      line-height: 48px;
+      font-size: 16px;
+      color: #fff; }
+      .trusted-head .ts-bg1 .know-detail a {
+        color: #ffe6ae;
+        display: inline-block; }
+      .trusted-head .ts-bg1 .know-detail .ts-left img {
+        margin: 0 20px; }
+      .trusted-head .ts-bg1 .know-detail .ts-right img {
+        margin: 0 95px 0 16px;
+        vertical-align: middle; }
+  .trusted-head .ts-bg2 {
+    background-color: #f0eadc; }
+    .trusted-head .ts-bg2 .trusted-info {
+      height: 43px;
+      line-height: 43px;
+      width: 100%;
+      font-size: 14px;
+      color: #5fbf89; }
+      .trusted-head .ts-bg2 .trusted-info .blank {
+        width: 43px;
+        height: 43px; }
+      .trusted-head .ts-bg2 .trusted-info .mar {
+        width: 217px; }
+        .trusted-head .ts-bg2 .trusted-info .mar i {
+          width: 14px;
+          height: 14px;
+          display: inline-block;
+          margin-right: 14px;
+          vertical-align: middle;
+          margin-bottom: 3px;
+          background: url("../img/true.png") no-repeat; }
+
+.top_r_hide {
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  right: 0; }
+
+.siteNav {
+  height: 30px;
+  background: #f1f1f1;
+  border-bottom: 1px solid #e5e5e5; }
+  .siteNav .site_nav_bd .site_nav_bd_l {
+    float: left; }
+  .siteNav .site_nav_bd .site_nav_bd_r {
+    float: right;
+    padding-right: 80px; }
+    .siteNav .site_nav_bd .site_nav_bd_r .topmenu li {
+      float: left;
+      line-height: 30px;
+      margin-right: 5px;
+      position: relative; }
+      .siteNav .site_nav_bd .site_nav_bd_r .topmenu li a {
+        display: inline-block;
+        font-size: 12px;
+        padding: 0 10px;
+        color: #5b5b5b; }
+      .siteNav .site_nav_bd .site_nav_bd_r .topmenu li .hidebox {
+        position: absolute;
+        width: 85px;
+        background: #fff; }
+        .siteNav .site_nav_bd .site_nav_bd_r .topmenu li .hidebox a:hover {
+          color: #1978be; }
+    .siteNav .site_nav_bd .site_nav_bd_r .topmenu .header_down {
+      display: inline-block;
+      height: 20px;
+      width: 10px;
+      background: url(../img/top_down.png) no-repeat 0 8px;
+      margin: 0 3px; }
+  .siteNav .site_nav_bd .topmenu .top_phone {
+    display: inline-block;
+    height: 20px;
+    width: 15px;
+    background: url(../img/top_phone.png) no-repeat 0 5px;
+    margin: 0 3px;
+    position: relative;
+    top: 3px; }
+  .siteNav .site_nav_bd .topmenu .top_list {
+    display: inline-block;
+    height: 20px;
+    width: 15px;
+    background: url(../img/top_list.png) no-repeat 0 5px;
+    margin: 0 3px;
+    position: relative;
+    top: 3px; }
+
+.siteHeader {
+  height: 120px; }
+  .siteHeader .site_head .logo {
+    width: 390px;
+    height: 50px;
+    margin-top: 35px;
+    float: left;
+    background: url(../img/logo-1.png) no-repeat; }
+  .siteHeader .site_head .mod_search {
+    float: left;
+    margin: 35px 0 0 20px; }
+    .siteHeader .site_head .mod_search .searchForm {
+      width: 500px;
+      height: 33px;
+      border: 3px solid #0c69ae; }
+      .siteHeader .site_head .mod_search .searchForm .search-wrapper {
+        float: left;
+        width: 420px;
+        background: #fff; }
+        .siteHeader .site_head .mod_search .searchForm .search-wrapper .wrap-search {
+          height: 33px;
+          line-height: 33px;
+          padding-left: 12px;
+          color: #666;
+          width: 445px; }
+      .siteHeader .site_head .mod_search .searchForm .search-button {
+        float: left;
+        width: 80px;
+        height: 34px;
+        line-height: 34px;
+        overflow: hidden;
+        text-align: center;
+        background: #0c69ae; }
+        .siteHeader .site_head .mod_search .searchForm .search-button .search-btn {
+          font-size: 16px;
+          line-height: 31px;
+          cursor: pointer;
+          color: #fff;
+          background: #0c69ae;
+          vertical-align: top; }
+    .siteHeader .site_head .mod_search .search-more a {
+      margin-right: 8px;
+      color: #999;
+      line-height: 25px;
+      font-size: 12px; }
+    .siteHeader .site_head .mod_search .search-more a:hover {
+      color: #d60035; }
+  .siteHeader .site_head .phone {
+    margin-top: 38px;
+    float: right; }
+    .siteHeader .site_head .phone ul li {
+      float: left;
+      font-size: 12px;
+      color: #999;
+      margin-right: 0px; }
+      .siteHeader .site_head .phone ul li span {
+        font-size: 12px;
+        color: #999; }
+      .siteHeader .site_head .phone ul li i {
+        margin: 0 5px 0 0;
+        float: left;
+        font-size: 36px;
+        color: #4095d4; }
+    .siteHeader .site_head .phone ul .last {
+      width: 150px;
+      margin-right: 20px; }
+      .siteHeader .site_head .phone ul .last span b {
+        color: #bc8720;
+        font-size: 16px;
+        font-weight: normal; }
+      .siteHeader .site_head .phone ul .last i {
+        color: #bc8720; }
+
+.header-wrapper {
+  border-bottom: 2px solid #0c69ae; }
+
+.headerNavMain .nav-all {
+  float: left;
+  width: 205px;
+  background: #0c69ae;
+  width: 205px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center; }
+  .headerNavMain .nav-all span {
+    cursor: pointer;
+    color: #fff;
+    width: 190px;
+    display: inline-block;
+    font-size: 17px; }
+  .headerNavMain .nav-all .yHeader {
+    text-align: left; }
+    .headerNavMain .nav-all .yHeader .yNavIndex {
+      position: absolute;
+      z-index: 2; }
+      .headerNavMain .nav-all .yHeader .yNavIndex .pullDown {
+        position: absolute; }
+        .headerNavMain .nav-all .yHeader .yNavIndex .pullDown .pullDownList {
+          width: 205px;
+          height: 405px;
+          background: #1978be;
+          position: relative;
+          z-index: 2;
+          padding: 10px 0; }
+          .headerNavMain .nav-all .yHeader .yNavIndex .pullDown .pullDownList li {
+            height: 40px;
+            line-height: 40px;
+            font-size: 12px;
+            color: #efefef;
+            padding-left: 10px;
+            position: relative; }
+            .headerNavMain .nav-all .yHeader .yNavIndex .pullDown .pullDownList li i {
+              font-size: 19px;
+              color: #fff;
+              display: inline-block;
+              margin: -4px 5px 0 0; }
+            .headerNavMain .nav-all .yHeader .yNavIndex .pullDown .pullDownList li a {
+              color: #fff;
+              font-size: 13px; }
+        .headerNavMain .nav-all .yHeader .yNavIndex .pullDown .yMenuListCon {
+          width: 995px;
+          height: 424px;
+          position: absolute;
+          z-index: 4;
+          top: 0px;
+          left: 205px;
+          overflow: hidden;
+          clear: both;
+          background: #fff; }
+          .headerNavMain .nav-all .yHeader .yNavIndex .pullDown .yMenuListCon .left {
+            float: left;
+            width: 730px;
+            padding-top: 20px; }
+            .headerNavMain .nav-all .yHeader .yNavIndex .pullDown .yMenuListCon .left dl::after {
+              clear: both;
+              content: '.';
+              display: block;
+              height: 0;
+              line-height: 0;
+              overflow: hidden; }
+            .headerNavMain .nav-all .yHeader .yNavIndex .pullDown .yMenuListCon .left dt {
+              width: 120px;
+              text-align: right;
+              float: left;
+              margin-right: 5px;
+              font-size: 12px;
+              font-weight: bold; }
+              .headerNavMain .nav-all .yHeader .yNavIndex .pullDown .yMenuListCon .left dt a i {
+                font-size: 12px;
+                margin-left: 5px; }
+            .headerNavMain .nav-all .yHeader .yNavIndex .pullDown .yMenuListCon .left dd {
+              float: left;
+              width: 600px; }
+              .headerNavMain .nav-all .yHeader .yNavIndex .pullDown .yMenuListCon .left dd a::after {
+                background: #ccc;
+                height: 10px;
+                width: 1px;
+                display: inline-block;
+                vertical-align: middle;
+                margin: -2px 2px 0 5px;
+                content: " "; }
+.headerNavMain .header_links {
+  height: 40px;
+  line-height: 40px;
+  float: left; }
+  .headerNavMain .header_links ul li {
+    float: left;
+    margin-left: 30px;
+    position: relative; }
+    .headerNavMain .header_links ul li a {
+      display: block;
+      color: #5b5b5b;
+      font-size: 16px; }
+    .headerNavMain .header_links ul li a:hover {
+      color: #4095d4; }
+    .headerNavMain .header_links ul li img {
+      position: absolute;
+      top: -3px;
+      right: -22px; }
+
+.top_service {
+  position: absolute;
+  top: 198px;
+  right: 73px;
+  width: 210px;
+  padding: 10px;
+  background: #fff;
+  z-index: 1; }
+  .top_service .slideTxtBox {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 18px; }
+    .top_service .slideTxtBox .hd {
+      height: 32px;
+      border-bottom: 1px solid #5b5b5b; }
+      .top_service .slideTxtBox .hd ul li {
+        float: left;
+        width: 105px;
+        height: 30px;
+        text-align: center;
+        cursor: pointer;
+        color: #5b5b5b;
+        font-size: 14px; }
+    .top_service .slideTxtBox .bd .news_ul_list {
+      height: 131px;
+      font-size: 12px;
+      padding-top: 18px;
+      margin: 0 auto; }
+      .top_service .slideTxtBox .bd .news_ul_list ul li {
+        height: 25px;
+        line-height: 25px;
+        overflow: hidden; }
+        .top_service .slideTxtBox .bd .news_ul_list ul li a {
+          color: #5b5b5b; }
+        .top_service .slideTxtBox .bd .news_ul_list ul li a:hover {
+          color: #d60035; }
+    .top_service .slideTxtBox .bd .goodService {
+      padding-top: 20px; }
+      .top_service .slideTxtBox .bd .goodService li {
+        float: left;
+        width: 50%;
+        margin: 10px 0; }
+        .top_service .slideTxtBox .bd .goodService li a i {
+          float: left;
+          color: #cfa54f;
+          padding: 0 10px 0 20px;
+          font-size: 36px; }
+        .top_service .slideTxtBox .bd .goodService li a span {
+          display: block;
+          color: #cfa54f; }
+  .top_service .iMoreService {
+    border-top: 1px solid #e9e9e9; }
+    .top_service .iMoreService h4 {
+      margin: 20px 0; }
+    .top_service .iMoreService .iMService_list a dl {
+      float: left;
+      color: #5f89c5;
+      width: 70px;
+      text-align: center;
+      margin-bottom: 15px; }
+      .top_service .iMoreService .iMService_list a dl dt {
+        margin-bottom: 5px; }
+        .top_service .iMoreService .iMService_list a dl dt i {
+          font-size: 30px; }
+
+.toolbar-wrap {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 100%;
+  z-index: 4; }
+  .toolbar-wrap .toolbar {
+    width: 40px;
+    height: 100%;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    background: #4d4d4c; }
+    .toolbar-wrap .toolbar .toolbar-tabs {
+      position: absolute;
+      top: 30%;
+      left: 0;
+      margin-top: -190px;
+      z-index: 2;
+      width: 40px;
+      color: #fff; }
+      .toolbar-wrap .toolbar .toolbar-tabs .toolbar-tab {
+        position: relative;
+        width: 40px;
+        cursor: pointer;
+        display: inline-block;
+        margin: 2px 0; }
+        .toolbar-wrap .toolbar .toolbar-tabs .toolbar-tab i {
+          color: #fff;
+          font-size: 20px;
+          line-height: 40px;
+          text-align: center;
+          display: block;
+          width: 40px; }
+        .toolbar-wrap .toolbar .toolbar-tabs .toolbar-tab .tab-text {
+          width: 62px;
+          height: 40px;
+          line-height: 40px;
+          color: #fff;
+          font-size: 12px;
+          text-align: center;
+          position: absolute;
+          z-index: 1;
+          left: 40px;
+          top: 0;
+          border-radius: 3px 0 0 3px;
+          background-color: #e53b46;
+          transition: left 0.3s ease-in-out 0.1s;
+          cursor: pointer; }
+      .toolbar-wrap .toolbar .toolbar-tabs .message_list {
+        line-height: 16px;
+        margin: 20px 0 10px 0; }
+        .toolbar-wrap .toolbar .toolbar-tabs .message_list i {
+          color: #fff;
+          font-size: 18px;
+          line-height: 20px;
+          text-align: center;
+          display: block;
+          width: 40px; }
+        .toolbar-wrap .toolbar .toolbar-tabs .message_list .txt {
+          width: 16px;
+          display: block;
+          height: 60px;
+          cursor: pointer;
+          color: #fff;
+          text-align: center;
+          margin: 10px 11px;
+          font-size: 12px; }
+        .toolbar-wrap .toolbar .toolbar-tabs .message_list .cart_num {
+          height: 20px;
+          width: 20px;
+          display: block;
+          border-radius: 50%;
+          background: #e53b46;
+          text-align: center;
+          line-height: 20px;
+          margin-left: auto;
+          margin-right: auto;
+          cursor: pointer;
+          color: #fff;
+          font-size: 12px; }
+  .toolbar-wrap .toolbar-footer {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 38px;
+    background: #4d4d4c;
+    z-index: 1; }
+    .toolbar-wrap .toolbar-footer a {
+      color: #fff; }
+    .toolbar-wrap .toolbar-footer .toolbar-tab {
+      position: relative;
+      width: 40px;
+      cursor: pointer;
+      display: inline-block;
+      margin: 2px 0; }
+      .toolbar-wrap .toolbar-footer .toolbar-tab i {
+        color: #fff;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        display: block;
+        width: 40px; }
+      .toolbar-wrap .toolbar-footer .toolbar-tab em {
+        width: 50px;
+        height: 40px;
+        line-height: 40px;
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+        left: 40px;
+        top: 0;
+        font-size: 12px;
+        background-color: #e53b46;
+        border-radius: 3px 0 0 3px;
+        transition: left 0.3s ease-in-out 0.1s;
+        cursor: pointer; }
+      .toolbar-wrap .toolbar-footer .toolbar-tab .qrcode {
+        width: 140px;
+        height: 145px;
+        left: -141px;
+        top: auto;
+        bottom: 0;
+        background-color: #fff;
+        text-align: center;
+        color: #5b5b5b;
+        border: 1px solid #e9e9e9;
+        border-right-color: #e9e9e9;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-right: 0;
+        border-radius: 0;
+        position: absolute; }
+        .toolbar-wrap .toolbar-footer .toolbar-tab .qrcode search-wrapper
+        dl {
+          float: left;
+          padding: 10px 20px; }
+          .toolbar-wrap .toolbar-footer .toolbar-tab .qrcode search-wrapper
+          dl dt {
+            font-size: 12px;
+            margin-bottom: 5px; }
+          .toolbar-wrap .toolbar-footer .toolbar-tab .qrcode search-wrapper
+          dl dd img {
+            width: 100px; }
+
+.top_picScroll {
+  margin-bottom: 20px; }
+  .top_picScroll .swiper-container {
+    width: 100%;
+    height: 424px;
+    background: #ccc; }
+  .top_picScroll .swiper-pagination-bullet-active {
+    color: #007aff;
+    background: orangered; }
+  .top_picScroll .swiper-wrapper a {
+    height: 424px;
+    display: block;
+    background-position: center top; }
+
+.container .index_getCoupon {
+  margin-bottom: 30px; }
+  .container .index_getCoupon dt {
+    float: left;
+    width: 285px;
+    text-align: center;
+    padding-top: 15px; }
+    .container .index_getCoupon dt h4 {
+      font-size: 30px;
+      color: #5b5b5b;
+      margin-bottom: 10px; }
+    .container .index_getCoupon dt .perGet_border {
+      border-top: 1px solid #5b5b5b;
+      width: 160px;
+      margin: 0 auto; }
+      .container .index_getCoupon dt .perGet_border span {
+        display: inline-block;
+        width: 100px;
+        background: #fff;
+        font-size: 16px;
+        color: #e53b46; }
+  .container .index_getCoupon dd {
+    float: left;
+    width: 215px;
+    margin-right: 10px; }
+    .container .index_getCoupon dd a {
+      display: block;
+      position: relative; }
+      .container .index_getCoupon dd a img {
+        width: 213px;
+        height: 120px; }
+      .container .index_getCoupon dd a .ling {
+        width: 38px;
+        height: 38px;
+        position: absolute;
+        right: 0;
+        bottom: 24px; }
+
+.index_grayBg {
+  background: #f8f8f8; }
+
+.iTab_drugNews {
+  margin-bottom: 40px;
+  background: #fff; }
+  .iTab_drugNews .slideTxtBox {
+    width: 100%;
+    text-align: left; }
+    .iTab_drugNews .slideTxtBox .hd {
+      height: 57px;
+      line-height: 57px;
+      background: #f7f7f7;
+      border-top: 2px solid #5b5b5b;
+      margin-bottom: 30px; }
+      .iTab_drugNews .slideTxtBox .hd ul {
+        height: 59px; }
+        .iTab_drugNews .slideTxtBox .hd ul li {
+          float: left;
+          width: 400px;
+          text-align: center;
+          font-size: 24px;
+          color: #000;
+          cursor: pointer; }
+          .iTab_drugNews .slideTxtBox .hd ul li i {
+            font-size: 30px;
+            font-weight: normal;
+            vertical-align: middle; }
+          .iTab_drugNews .slideTxtBox .hd ul li span {
+            margin-left: -10px; }
+
+.news_div .medBen dl {
+  float: left;
+  text-align: center;
+  border-right: 1px solid #f0f0f0;
+  width: 210px;
+  padding: 10px 14.5px; }
+  .news_div .medBen dl a:hover {
+    color: #0c69ae; }
+  .news_div .medBen dl a {
+    color: #5b5b5b; }
+    .news_div .medBen dl a dt {
+      position: relative; }
+      .news_div .medBen dl a dt img {
+        width: 210px;
+        height: 210px;
+        position: relative;
+        animation: all 1s; }
+@keyframes mymove {
+  0% {
+    top: 0px; }
+  50% {
+    top: -10px; }
+  100% {
+    top: 0px; } }
+      .news_div .medBen dl a dt img:hover {
+        animation: mymove alternate 2s; }
+  .news_div .medBen dl dd {
+    margin-top: 10px;
+    line-height: 25px; }
+    .news_div .medBen dl dd span {
+      display: block; }
+    .news_div .medBen dl dd strong b {
+      font-size: 18px;
+      color: #e53b46;
+      margin-right: 15px; }
+    .news_div .medBen dl dd strong i {
+      text-decoration: line-through;
+      color: #999;
+      font-weight: normal; }
+
+.bd_news_dl dl {
+  float: left;
+  width: 565px;
+  margin-left: 30px;
+  border-right: 1px solid #e9e9e9;
+  height: 165px; }
+  .bd_news_dl dl dt {
+    float: left;
+    width: 200px;
+    margin-right: 25px; }
+    .bd_news_dl dl dt a img {
+      width: 206px;
+      height: 162px; }
+  .bd_news_dl dl dd a {
+    color: #5b5b5b; }
+    .bd_news_dl dl dd a h4 {
+      font-weight: bold;
+      font-size: 14px; }
+    .bd_news_dl dl dd a p {
+      text-indent: 2em;
+      margin-top: 10px;
+      line-height: 25px;
+      height: 25px;
+      height: 128px;
+      color: #5b5b5b; }
+
+.iTab_drugNews .news_ul_list {
+  font-size: 12px;
+  border-top: 1px solid #e9e9e9;
+  width: 1150px;
+  margin: 0 auto;
+  padding-top: 20px; }
+  .iTab_drugNews .news_ul_list ul {
+    float: left;
+    width: 255px;
+    margin: 0 15px; }
+    .iTab_drugNews .news_ul_list ul li {
+      height: 25px;
+      line-height: 25px;
+      overflow: hidden;
+      white-space: nowrap;
+      margin-bottom: 7px; }
+      .iTab_drugNews .news_ul_list ul li span {
+        background: #e53b46;
+        color: #fff;
+        display: inline-block;
+        padding: 0 5px;
+        margin-right: 10px; }
+      .iTab_drugNews .news_ul_list ul li a:hover {
+        color: #0c69ae; }
+
+.drug_floor {
+  margin-bottom: 40px; }
+  .drug_floor .dFloor1 {
+    position: relative;
+    width: 1200px;
+    font-weight: normal;
+    font-size: 14px;
+    border-bottom: 2px solid #63c19f; }
+    .drug_floor .dFloor1 span {
+      display: inline-block;
+      background: #63c19f;
+      width: 190px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 24px;
+      color: #fff;
+      text-align: center; }
+      .drug_floor .dFloor1 span em {
+        margin-left: 10px; }
+    .drug_floor .dFloor1 .dFloor_keyWord {
+      right: 0;
+      bottom: 10px;
+      height: 20px;
+      color: #ccc;
+      position: absolute; }
+      .drug_floor .dFloor1 .dFloor_keyWord a {
+        padding: 0 10px;
+        color: #5b5b5b; }
+
+.drug_main .drug_mLeft {
+  float: left;
+  width: 190px;
+  border-right: 1px solid #e9e9e9;
+  background: #fff; }
+  .drug_main .drug_mLeft a {
+    float: left;
+    text-align: center;
+    width: 94px;
+    height: 52px;
+    line-height: 52px;
+    border-bottom: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+    color: #5b5b5b; }
+    .drug_main .drug_mLeft a img {
+      width: 94px;
+      height: 52px;
+      vertical-align: top; }
+.drug_main .drug_mRig {
+  float: left; }
+  .drug_main .drug_mRig .dRig_picScroll_drug .dRig_picScroll {
+    float: left;
+    width: 605px;
+    height: 280px;
+    background: url(../img/lun_small.jpg) no-repeat; }
+  .drug_main .drug_mRig .dRig_picScroll_drug .dRig_drug {
+    float: right;
+    width: 400px;
+    height: 219px;
+    padding-top: 35px;
+    background: #f2f2f2;
+    padding-bottom: 20px; }
+    .drug_main .drug_mRig .dRig_picScroll_drug .dRig_drug dl {
+      width: 165px;
+      float: left;
+      margin-left: 20px; }
+      .drug_main .drug_mRig .dRig_picScroll_drug .dRig_drug dl a dt {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 20px; }
+        .drug_main .drug_mRig .dRig_picScroll_drug .dRig_drug dl a dt span {
+          display: block;
+          color: #e53b46;
+          font-size: 14px;
+          padding-top: 5px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+      .drug_main .drug_mRig .dRig_picScroll_drug .dRig_drug dl a dd {
+        position: absolute; }
+        .drug_main .drug_mRig .dRig_picScroll_drug .dRig_drug dl a dd img {
+          width: 165px;
+          height: 155px;
+          position: relative; }
+  .drug_main .drug_mRig .dRig_drugList {
+    background: #fff; }
+    .drug_main .drug_mRig .dRig_drugList dl {
+      float: left;
+      width: 180px;
+      text-align: center;
+      padding: 10px;
+      border-right: 1px solid #e9e9e9; }
+      .drug_main .drug_mRig .dRig_drugList dl dt {
+        position: relative;
+        height: 100px;
+        margin-bottom: 15px;
+        padding-top: 15px;
+        height: 100px; }
+        .drug_main .drug_mRig .dRig_drugList dl dt a {
+          color: #5b5b5b;
+          text-align: center; }
+          .drug_main .drug_mRig .dRig_drugList dl dt a img {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            display: inline;
+            left: 40px;
+            top: 15px; }
+      .drug_main .drug_mRig .dRig_drugList dl dd h4 {
+        font-weight: bold;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin-bottom: 5px;
+        color: #5b5b5b; }
+      .drug_main .drug_mRig .dRig_drugList dl dd span {
+        color: #e53b46;
+        font-size: 16px; }
+
+.indexBanner {
+  height: 90px;
+  margin-bottom: 40px; }
+  .indexBanner img {
+    width: 1200px;
+    height: 90px; }
+
+.c_drugNews {
+  margin-bottom: 40px; }
+  .c_drugNews .drug_news {
+    float: left;
+    width: 890px; }
+    .c_drugNews .drug_news .slideTxtBox {
+      text-align: left;
+      width: 888px; }
+      .c_drugNews .drug_news .slideTxtBox .hd {
+        background: #f7f7f7;
+        border-bottom: 2px solid #5f89c5;
+        position: relative;
+        height: 46px; }
+        .c_drugNews .drug_news .slideTxtBox .hd ul {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 46px;
+          float: left;
+          line-height: 44px; }
+          .c_drugNews .drug_news .slideTxtBox .hd ul li.on {
+            height: 44px;
+            background: #fff;
+            color: #5f89c5;
+            border: 2px solid #5f89c5;
+            border-bottom: 2px solid #fff; }
+          .c_drugNews .drug_news .slideTxtBox .hd ul li {
+            float: left;
+            padding: 0 25px;
+            cursor: pointer;
+            font-size: 16px; }
+      .c_drugNews .drug_news .slideTxtBox .bd {
+        border: 1px solid #ccc;
+        padding: 15px;
+        text-align: left;
+        background: #fff; }
+        .c_drugNews .drug_news .slideTxtBox .bd .news_div {
+          display: block; }
+          .c_drugNews .drug_news .slideTxtBox .bd .news_div dl dt {
+            float: left;
+            width: 75px;
+            margin-right: 35px;
+            margin-left: 10px; }
+            .c_drugNews .drug_news .slideTxtBox .bd .news_div dl dt a img {
+              width: 75px;
+              height: 75px; }
+          .c_drugNews .drug_news .slideTxtBox .bd .news_div dl dd {
+            float: left;
+            width: 700px;
+            font-size: 14px;
+            color: #5b5b5b; }
+            .c_drugNews .drug_news .slideTxtBox .bd .news_div dl dd a:hover {
+              color: #0c69ae; }
+            .c_drugNews .drug_news .slideTxtBox .bd .news_div dl dd a {
+              font-size: 18px; }
+            .c_drugNews .drug_news .slideTxtBox .bd .news_div dl dd p {
+              text-indent: 2em;
+              margin-top: 10px;
+              line-height: 25px;
+              font-size: 14px; }
+        .c_drugNews .drug_news .slideTxtBox .bd .news_ul_list {
+          margin: 10px 0;
+          font-size: 12px; }
+          .c_drugNews .drug_news .slideTxtBox .bd .news_ul_list ul {
+            float: left;
+            width: 255px;
+            margin-right: 25px;
+            height: 25px;
+            line-height: 25px; }
+            .c_drugNews .drug_news .slideTxtBox .bd .news_ul_list ul li ::before {
+              width: 1px;
+              height: 2px;
+              background: #5b5b5b;
+              display: inline-block;
+              vertical-align: middle;
+              margin-top: -3px;
+              content: " "; }
+            .c_drugNews .drug_news .slideTxtBox .bd .news_ul_list ul li a span {
+              color: #5f89c5; }
+  .c_drugNews .media_report {
+    background: #fff;
+    float: right;
+    width: 280px;
+    border: 1px solid #ddd; }
+    .c_drugNews .media_report h4 {
+      height: 40px;
+      line-height: 40px;
+      padding: 0 15px;
+      font-size: 14px; }
+      .c_drugNews .media_report h4 span {
+        display: inline-block;
+        float: right; }
+    .c_drugNews .media_report .m_textReport ul {
+      font-size: 12px;
+      width: 250px;
+      text-align: left;
+      margin-left: 10px; }
+      .c_drugNews .media_report .m_textReport ul li {
+        line-height: 24px;
+        height: 25px; }
+        .c_drugNews .media_report .m_textReport ul li em {
+          width: 3px;
+          height: 2px;
+          background: #5b5b5b;
+          display: inline-block;
+          vertical-align: middle;
+          margin-top: -3px;
+          margin-right: 10px; }
+
+.friendship_links {
+  margin-bottom: 10px; }
+  .friendship_links dl {
+    line-height: 25px;
+    font-size: 12px; }
+    .friendship_links dl dt {
+      float: left;
+      margin-right: 10px; }
+    .friendship_links dl dd {
+      float: left;
+      overflow: hidden;
+      width: 1080px;
+      height: 25px; }
+      .friendship_links dl dd a {
+        display: inline-block;
+        padding-right: 10px; }
+    .friendship_links dl a.arrow_down {
+      background: url(../img/arrow_down.png) no-repeat center center;
+      background-size: 12px;
+      width: 25px;
+      height: 25px;
+      display: inline-block; }
+    .friendship_links dl a.arrow_up {
+      background: url(../img/arrow_up.png) no-repeat center center;
+      background-size: 12px;
+      width: 25px;
+      height: 25px;
+      display: inline-block; }
+
+.footer {
+  margin-top: 50px;
+  background-color: #fff; }
+  .footer .footer_top {
+    background: #4095d4;
+    color: #fff; }
+    .footer .footer_top .footer_phone_wrapper {
+      padding: 30px 0;
+      border-bottom: 1px solid #2382c9; }
+      .footer .footer_top .footer_phone_wrapper h1 {
+        border-right: 1px solid #2382c9;
+        float: left;
+        margin-left: 138px;
+        font-weight: normal;
+        font-size: 14px; }
+        .footer .footer_top .footer_phone_wrapper h1 i {
+          font-size: 50px;
+          float: left; }
+        .footer .footer_top .footer_phone_wrapper h1 span {
+          font-size: 22px;
+          float: left;
+          padding: 0 20px; }
+          .footer .footer_top .footer_phone_wrapper h1 span a {
+            color: #e5cb3b;
+            display: block; }
+      .footer .footer_top .footer_phone_wrapper dl {
+        float: left;
+        padding-left: 30px; }
+        .footer .footer_top .footer_phone_wrapper dl dt {
+          font-size: 22px;
+          float: left;
+          margin-right: 10px;
+          line-height: 58px; }
+        .footer .footer_top .footer_phone_wrapper dl dd {
+          float: left; }
+          .footer .footer_top .footer_phone_wrapper dl dd span {
+            float: left;
+            line-height: 58px;
+            margin-right: 24px; }
+    .footer .footer_top .footer_link {
+      padding: 20px 0; }
+      .footer .footer_top .footer_link ul {
+        border-right: 1px solid #2382c9;
+        float: left;
+        height: 200px; }
+        .footer .footer_top .footer_link ul li {
+          float: left;
+          text-align: center;
+          padding-right: 70px;
+          line-height: 30px; }
+          .footer .footer_top .footer_link ul li img {
+            margin: 20px 0 10px 0; }
+          .footer .footer_top .footer_link ul li span {
+            display: block; }
+      .footer .footer_top .footer_link dl {
+        float: left;
+        width: 80px;
+        padding-left: 70px; }
+        .footer .footer_top .footer_link dl dt {
+          font-size: 18px;
+          margin-bottom: 20px; }
+        .footer .footer_top .footer_link dl dd a {
+          display: block;
+          color: #fff;
+          line-height: 22px;
+          font-size: 12px; }
+  .footer .footer_bottom {
+    text-align: center;
+    line-height: 25px; }
+    .footer .footer_bottom ul {
+      width: 605px;
+      height: 75px;
+      line-height: 75px;
+      margin: 0 auto; }
+      .footer .footer_bottom ul li {
+        color: #bc871f;
+        font-size: 18px;
+        float: left;
+        width: 25%; }
+        .footer .footer_bottom ul li a i {
+          font-size: 38px;
+          margin-right: 10px;
+          display: inline-block;
+          vertical-align: bottom; }
+    .footer .footer_bottom dl {
+      line-height: 25px; }
+      .footer .footer_bottom dl dt {
+        border-top: 1px solid #d1d1d1;
+        padding-top: 10px;
+        font-size: 12px; }
+        .footer .footer_bottom dl dt b {
+          height: 12px;
+          width: 1px;
+          display: inline-block;
+          *display: inline;
+          *zoom: 1;
+          vertical-align: middle;
+          margin-right: 10px;
+          margin-left: 10px;
+          background: #5b5b5b; }
+      .footer .footer_bottom dl dd {
+        font-size: 12px; }
+        .footer .footer_bottom dl dd img {
+          vertical-align: middle;
+          margin: -3px 10px 0 0; }
+        .footer .footer_bottom dl dd .mobile {
+          color: #6088c5;
+          margin-left: 20px;
+          font-size: 12px; }
+    .footer .footer_bottom .outherLogo {
+      height: 43px;
+      padding: 20px; }
+      .footer .footer_bottom .outherLogo a {
+        display: inline-block;
+        vertical-align: middle;
+        width: 111px;
+        height: 43px;
+        background: url(../img/outherLogo.jpg) no-repeat 0 0;
+        margin-right: 20px; }
+      .footer .footer_bottom .outherLogo a.outherLogo_2 {
+        background-position: -130px 0; }
+      .footer .footer_bottom .outherLogo a.outherLogo_3 {
+        background-position: -260px 0; }
+      .footer .footer_bottom .outherLogo a.outherLogo_4 {
+        background-position: -380px 0; }
+      .footer .footer_bottom .outherLogo a.outherLogo_5 {
+        background-position: -510px 0; }
+      .footer .footer_bottom .outherLogo a.outherLogo_6 {
+        background-position: -650px 0; }
+
+/*# sourceMappingURL=yaofang.css.map */

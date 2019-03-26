@@ -1,0 +1,314 @@
+@charset "utf-8";
+// 标题栏 start
+.siteNav{
+    height: 30px;
+    background: #f1f1f1;
+    border-bottom: 1px solid #e5e5e5;
+   .site_nav_bd{
+    .site_nav_bd_l {
+        float: left;
+    }
+    .site_nav_bd_r{
+        float: right;
+        padding-right: 80px;
+        .topmenu li{
+            float: left;
+            line-height: 30px;
+            margin-right: 5px;
+            position: relative;
+            a{
+                display: inline-block;
+                font-size: 12px;
+                padding: 0 10px;
+                color: #5b5b5b;
+            }
+            .hidebox{
+                position: absolute;
+                width: 85px;
+                background: #fff;
+                a:hover{color:#1978be;}
+            } 
+        }
+        .topmenu .header_down{display: inline-block; height: 20px;width: 10px;background: url(../img/top_down.png) no-repeat 0 8px;margin: 0 3px;}
+    }
+        .topmenu .top_phone{display: inline-block; height: 20px;width: 15px;background: url(../img/top_phone.png) no-repeat 0 5px;margin: 0 3px;position: relative;top: 3px;}
+        .topmenu .top_list{display: inline-block; height: 20px;width: 15px;background: url(../img/top_list.png) no-repeat 0 5px ;margin: 0 3px;position: relative;top: 3px;}
+    } 
+}
+//标题栏 end
+//logo search start
+.site_head{
+    height: 120px;
+    .logo{
+        width: 339px;
+        height: 50px;
+        margin: 35px 0 0 0;
+        background: url(../img/reg_logo.png) no-repeat;
+        float: left;
+        a{
+            display: block;
+            width: 339px;
+            height: 50px;
+        }
+    }
+    .register_link{
+        float: right;
+        color: #999;
+        margin-top: 50px;
+        a{
+            color: #4095d4;
+        }
+    }
+}
+//logo search end
+//main start
+.login{
+    background: url(../img/login_bg.jpg) no-repeat center top #45a9c9;
+    .container{
+        .slogan{
+            float: left;
+            img{
+                margin: 25px 0 0 50px;
+            }
+        }
+    }
+    .content{
+        float: right;
+        width: 350px;
+        background: #fff;
+        padding: 20px 15px;
+        margin: 40px 0;
+        .tab_menu{
+            border-bottom: 2px solid #ccc;
+            margin-bottom: 25px;
+            float: none;
+            ul{
+                width: 270px;
+                margin: 0 auto;
+                li{
+                    text-align: center;
+                    width: 50%;
+                    float: left;
+                    line-height: 50px;
+                    height: 50px;
+                    font-size: 18px;
+                    cursor: pointer; 
+                }
+                li.on{
+                        border-bottom: 2px solid #0c69ae;
+                        color: #0c69ae;
+                    }
+            }
+        }
+        .tab_box{
+            .list_common {
+                padding: 0 20px;
+                .tishi{
+                    // display: none;
+                    padding: 0 20px 10px;
+                    position: relative;
+                    top: -14px;
+                    background: #ffebeb;
+                    color: #e4393c;
+                    border: 1px solid #faccc6;
+                    padding: 3px 10px 3px 20px;
+                    line-height: 15px;
+                    height: auto;
+                    margin: 0 20px;
+                    i{
+                        font-size: 16px;
+                        margin-right: 5px;
+                    }
+                }
+                dl{
+                    position: relative;
+                    dt{
+                        height: 40px;
+                        line-height: 40px;
+                        border: 1px solid #cfcfcf;
+                        margin-bottom: 25px;
+                        position: relative;
+                        i{
+                            font-size: 24px;
+                            margin-left: 10px;
+                            color: #999;
+                            width: 25px;
+                            float: left;
+                        }
+                        input{
+                            line-height: 40px;
+                            height: 40px;
+                            padding: 0 10px;
+                            width: 218px;
+                            float: left;
+                        }
+
+                    }
+                }
+                dl{
+                    dd{
+                        margin-bottom: 25px;
+                        position: relative;
+                        input.text1{
+                            float: left;
+                            width: 145px;
+                            height: 40px;
+                            line-height: 40px;
+                            border: 1px solid #cfcfcf;
+                            padding: 0 10px;
+                        }
+                        .imgVer{
+                            font-size: 12px;
+                            color: #4095d4;
+                            float: left;
+                            margin-left: 5px;
+                            height: 40px;
+                            width: 135px;
+                            // img{
+                            //     float: left;
+                            //     margin-right: 10px;
+                            //     height: 40px;
+                            //     width: 90px;
+                            // }
+                            span{
+                                display: inline-block;
+                                height: 40px;
+                                width: 70px;
+                                float: left;
+                                text-align: center;
+                                line-height: 40px;
+                                background: skyblue;
+                                margin: 0 15px 0 10px;
+                            }
+                            i{
+                                line-height: 20px;
+                                float: left;
+                                cursor: pointer;
+                                display: inline-block;
+                            }
+                        }
+                    }
+                    dd::after{
+                        clear: both;
+                        content: '.';
+                        display: block;
+                        height: 0;
+                        line-height: 0;
+                        overflow: hidden;
+                    }
+                }
+                p{
+                    padding: 5px 0;
+                }
+                .btn input{
+                    margin-bottom: 10px;
+                    background: #1d8bd7;;
+                    text-align: center;
+                    color: #fff;
+                    display: inline-block;
+                    height: 40px;
+                    line-height: 40px;
+                    width: 100%;
+                    font-size: 18px;
+                    margin-top: 20px;
+                    cursor: pointer;
+                }
+                .smsVer{
+                    text-align: center;
+                    display: inline-block;
+                    background: #f7f7f7;
+                    color: #5b5b5b;
+                    height: 40px;
+                    line-height: 42px;
+                    border: 1px solid #cfcfcf;
+                    width: 125px;
+                    cursor: pointer;
+                    font-size: 14px;
+                    float: left;
+                    margin-left: 15px;
+                }
+            }
+        }
+        // 下面的其他登录方式
+        .other_login{
+            line-height: 40px;
+            margin-top: 15px;
+            margin-left: 25px;
+            span{
+                float: left;
+            }
+            .icon-qq{
+                color: #65a3de;
+                font-size: 32px;
+                margin-right: 15px;
+                float: left;
+                margin-left: 10px;
+            }
+            .icon-weixin{
+                color: #08BA06;
+                font-size: 34px;
+                margin-top: 2px;
+                float: left;
+            }
+        }
+    }
+}
+
+// bottom start
+.footer{
+    margin-top: 50px;
+   .footer_bottom{
+        text-align: center;
+        line-height: 25px;
+        ul{
+            width: 605px;
+            height: 75px;
+            line-height: 75px;
+            margin: 0 auto;
+            li{
+                color: #bc871f;
+                font-size: 18px;
+                float: left;
+                width: 25%;
+                a{
+                    i{
+                        font-size: 38px;
+                        margin-right: 10px;
+                        display: inline-block;
+                        vertical-align: bottom;
+                    }
+                }
+            }
+        }
+        dl{
+            line-height: 25px;
+            dt{
+                font-size: 12px;
+                b{
+                    height: 12px;
+                    width: 1px;
+                    display: inline-block;
+                    *display: inline;
+                    *zoom: 1;
+                    vertical-align: middle;
+                    margin-right: 10px;
+                    margin-left: 10px;
+                    background: #5b5b5b;
+                }
+            }
+            dd{
+                font-size: 12px;
+                img{
+                    vertical-align: middle;
+                    margin: -3px 10px 0 0;
+                }
+                .mobile{
+                    color: #6088c5;
+                    margin-left: 20px;
+                    font-size: 12px;
+                }
+            }
+        }
+    } 
+}    
+// bottom end
